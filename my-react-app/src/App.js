@@ -8,8 +8,8 @@ function App() {
   <Router>
       <Routes>
         <Route path="/" element={<MainScreen />} />
-        <Route path="addtask" element={<AddTasks />} />
-        <Route path="displaytask" element={<DisplayTasks/>} />
+        <Route path="/addtask" element={<AddTasks />} />
+        <Route path="/displaytask" element={<DisplayTasks />} />
       </Routes>
   </Router>
   
